@@ -1,0 +1,16 @@
+main {
+
+    background-color: #e1e2e3;
+    height: 100vh;
+}
+
+.product-item {
+
+    width: fit-content;
+}
+
+.product-item img {
+
+    width: 16rem;
+    height: 16rem;
+}

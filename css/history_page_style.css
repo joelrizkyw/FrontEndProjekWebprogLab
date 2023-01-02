@@ -1,0 +1,10 @@
+main {
+
+    background-color: #e1e2e3;
+    min-height: 100vh;
+}
+
+.content-box {
+
+    padding-top: 2.5rem;
+}

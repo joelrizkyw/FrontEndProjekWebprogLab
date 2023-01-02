@@ -1,0 +1,26 @@
+main {
+
+    background-color: #e1e2e3;
+}
+
+.product-box {
+
+    width: 65%;
+    height: fit-content;
+}
+
+.product-image { 
+
+    margin-right: 2rem;
+}
+
+.product-image img {
+
+    width: 20rem;
+    height: 12rem;
+}
+
+/* .product-detail .left-side, .product-price .left-side {
+
+    margin-right: 4rem;
+} */

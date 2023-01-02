@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Product</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/search_product_style.css" />
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/47f4a42547.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#">Barbatos Shop</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Category 1</a></li>
+                  <li><a class="dropdown-item" href="#">Category 2</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="#">Category 3</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <main class="d-flex justify-content-center">
+      <div class="content-box container">
+        <div class="search-box my-4">
+          <form action="#" method="get">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search Products"
+                aria-label="Search Products"
+                aria-describedby="search"
+              />
+              <button type="submit" class="input-group-text" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="result-box bg-white">
+          <div class="result-label bg-light border p-2">
+            <p class="mb-0">Search Results</p>
+          </div>
+
+          <div class="result-found p-2 pb-4">
+            <div class="row justify-content-start">
+              <div class="col">
+                <div class="product-item bg-warning border">
+                  <img src="images/jbl.jpg" alt="JBL" />
+
+                  <p>Nama Produk</p>
+
+                  <p>IDR 5000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
