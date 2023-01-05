@@ -2,10 +2,10 @@ Tampilan html:
 
 login ---- v
 register ---- v
-home
-view product by category
+home ---- v
+view product by category ---- v
 product detail (guest dan customer) ---- v (masih ragu)
-search product
+search product ---- v
 manage product
 add product ---- v
 update product ---- v

@@ -1,0 +1,39 @@
+main {
+
+    background-color: #e1e2e3;
+    min-height: 100vh;
+}
+
+.content-box {
+
+    padding-top: 2rem;
+}
+
+.product-item {
+
+    margin-bottom: 1rem;
+}
+
+.manage-product-box {
+
+    width: 55%;
+}
+
+.product-detail {
+
+    width: 50%;
+    padding: 1rem;
+}
+
+.product-image img {
+
+    width: 14rem;
+    height: 10rem;
+}
+
+.product-buttons {
+
+    width: fit-content;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}

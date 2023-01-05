@@ -1,0 +1,46 @@
+main {
+
+    background-color: #e1e2e3;
+    min-height: 100vh;
+}
+
+
+.category-box {
+
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.category-label a {
+
+    text-decoration: none;
+}
+
+.category-datas {
+
+    overflow: scroll;
+}
+
+.category-datas a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.product-item {
+
+    width: fit-content;
+    margin-right: 2rem;
+}
+
+.category-datas a:last-child {
+
+   margin-right: 0;
+}
+
+
+.product-item img {
+
+    width: 15rem;
+    height: 14rem;
+}

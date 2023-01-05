@@ -4,6 +4,13 @@ main {
     height: 100vh;
 }
 
+
+.result-found a {
+
+    text-decoration: none;
+    color: black;
+}
+
 .product-item {
 
     width: fit-content;
@@ -11,6 +18,6 @@ main {
 
 .product-item img {
 
-    width: 16rem;
-    height: 16rem;
+    width: 15rem;
+    height: 14rem;
 }
