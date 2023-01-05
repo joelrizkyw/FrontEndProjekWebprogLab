@@ -1,9 +1,18 @@
 main {
 
     background-color: #e1e2e3;
-    height: 100vh;
+    min-height: 100vh;
 }
 
+.result-box {
+
+    margin-bottom: 2rem;
+}
+
+.result-found {
+
+    height: fit-content;
+}
 
 .result-found a {
 
@@ -14,6 +23,7 @@ main {
 .product-item {
 
     width: fit-content;
+    margin-bottom: 1rem;
 }
 
 .product-item img {
